@@ -1,0 +1,10 @@
+{
+   "events": [
+      {
+	"event_type": "JOIN_WORLD",
+		"noDeathDim": "false",
+		"joinOneEver": "false",
+	
+      }
+   ]
+}

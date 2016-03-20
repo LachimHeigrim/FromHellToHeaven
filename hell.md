@@ -123,6 +123,8 @@ Lava Boat
 
 ### Mods and dependencies
 - Forge
+- BNBGamingLib
+  - DimensionalControl
 - AnimationAPI
 	- Ars Magica 2
 - Mantle

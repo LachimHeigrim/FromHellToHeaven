@@ -14,6 +14,8 @@
 ### Mod Repos
 Utility Mobs: https://github.com/FatherToast/UtilityMobs/blob/master/src/main/java/toast/utilityMobs/BuildHelper.java
 
+### Useful Links
+https://www.reddit.com/r/feedthebeast/comments/1z4bqw/you_too_can_understand_mystcraft/
 
 ### Spawn Location
 x=-21

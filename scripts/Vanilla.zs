@@ -1,0 +1,1 @@
+furnace.addRecipe(<Railcraft:nugget>,<BiomesOPlenty:flesh>,2);

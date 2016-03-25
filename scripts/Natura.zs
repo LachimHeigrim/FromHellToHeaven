@@ -1,4 +1,25 @@
-print("Adding crafting recipes");
+import minetweaker.item.IItemStack;
+
+
+# Variables
+val ghostWoodPlanks = <Natura:planks:2>;
+val bloodWoodPlanks = <Natura:planks:4>;
+val darkWoodPlanks = <Natura:planks:11>;
+val fuseWoodPlanks = <Natura:planks:12>;
+val netherPlanksList = [ghostWoodPlanks,bloodWoodPlanks,darkWoodPlanks,fuseWoodPlanks] as IItemStack[];
+val dictNetherPlanks = <ore:netherPlanks>;
+
+
+# Ore dictionary fixes
+for planks in netherPlanksList {
+	<ore:netherPlanks>.add(planks);
+}
+
+
+<ore:stickWood>.add(<Natura:natura.stick:12>);
+<ore:woodStick>.mirror(<ore:stickWood>);
+
+
 
 # Mushroom stew: unify bowls
 val bowlWood = <ore:bowlWood>;
@@ -48,15 +69,18 @@ recipes.addShaped(<Natura:natura.kama.netherquartz>,
  [null,<ore:stickWood>,null]
 ]);
 
+# Bucket from fire-resistant wood
+#recipes.addShaped(<minecraft:bucket>,
+#[
+# [dictNetherPlanks,null,dictNetherPlanks],
+# [dictNetherPlanks,null,dictNetherPlanks],
+# [null,dictNetherPlanks,null]
+#]);
 
 
 # Furnace recipes
-print("Adding furnace recipes!");
-furnace.addRecipe(<Mariculture:materials:38>,<Natura:Glowshroom:2>);
-furnace.addRecipe(<Mariculture:materials:33>,<BiomesOPlenty:flesh>);
 
 
-print("Furnace recipes added");
 
 #mods.thermalexpansion.Pulverizer.removeRecipe(<ThermalDynamics:ThermalDynamics_0:0>);
 #mods.thermalexpansion.Pulverizer.removeRecipe(<ThermalDynamics:ThermalDynamics_0:1>);

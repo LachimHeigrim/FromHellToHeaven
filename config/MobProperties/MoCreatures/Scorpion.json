@@ -1,0 +1,20 @@
+{
+  "_name": "MoCreatures.Scorpion",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+    {
+      "_comment": "if this mob is not spawning in the overworld",
+      "function": "!if_in_dimension_0",
+      "functions": [
+        {
+          "_comment": "double the mob's max health",
+          "function": "modifier",
+          "attribute": "generic.maxHealth",
+          "value": 1,
+          "operator": 1
+        }
+      ]
+    } 
+  ]
+}

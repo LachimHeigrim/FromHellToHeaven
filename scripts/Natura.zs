@@ -6,11 +6,17 @@ val ghostWoodPlanks = <Natura:planks:2>;
 val bloodWoodPlanks = <Natura:planks:4>;
 val darkWoodPlanks = <Natura:planks:11>;
 val fuseWoodPlanks = <Natura:planks:12>;
-val netherPlanksList = [ghostWoodPlanks,bloodWoodPlanks,darkWoodPlanks,fuseWoodPlanks] as IItemStack[];
+val flameString = <Natura:barleyFood:7>;
+
+
 val dictNetherPlanks = <ore:netherPlanks>;
+val dictStickWood = <ore:stickWood>;
+val dictString = <ore:string>;
+
 
 
 # Ore dictionary fixes
+val netherPlanksList = [ghostWoodPlanks,bloodWoodPlanks,darkWoodPlanks,fuseWoodPlanks] as IItemStack[];
 for planks in netherPlanksList {
 	<ore:netherPlanks>.add(planks);
 }
@@ -18,6 +24,19 @@ for planks in netherPlanksList {
 
 <ore:stickWood>.add(<Natura:natura.stick:12>);
 <ore:woodStick>.mirror(<ore:stickWood>);
+
+dictString.add(flameString);
+dictString.add(<minecraft:string>);
+
+# Fishing rod from Natura resources
+recipes.addShaped(<minecraft:fishing_rod>,
+ [
+  [null,null,dictStickWood],
+  [null,dictStickWood,dictString],
+  [dictStickWood,null,dictString]	
+ ]
+);
+
 
 
 

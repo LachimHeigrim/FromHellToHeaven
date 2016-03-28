@@ -1,6 +1,19 @@
 {
   "_name": "Natura.FlameSpiderBaby",
-  "drops": [],
+  "drops": [
+    {
+      "_comment" : "Flame spider baby has 30% chance of dropping spider eye eggs as early food",
+      "function" : "all",
+      "count" : "0.3",
+      "functions" : [
+        {
+          "function" : "add",
+          "id" : "minecraft:spider_eye",
+          "count" : "1~2"
+        }
+      ]
+    }
+  ],
   "pre_stats": [],
   "stats": [
     {

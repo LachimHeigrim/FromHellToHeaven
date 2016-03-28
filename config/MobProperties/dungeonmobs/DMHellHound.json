@@ -1,13 +1,13 @@
 {
-  "_name": "Natura.FlameSpiderBaby",
+  "_name": "dungeonmobs.DMHellHound",
   "drops": [],
   "pre_stats": [],
   "stats": [
     {
-      "_comment": "baby's max speed reduced by 20%",
+      "_comment": "halve the hound's max speed. if it bites it deals a lot of damage",
       "function": "modifier",
       "attribute": "generic.movementSpeed",
-      "value": -0.45,
+      "value": -0.5,
       "operator": 1
     }
   ]

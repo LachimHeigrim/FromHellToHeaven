@@ -1,14 +1,14 @@
 {
-  "_name": "Natura.FlameSpiderBaby",
+  "_name": "dungeonmobs.DMThoqqua",
   "drops": [],
   "pre_stats": [],
   "stats": [
-    {
-      "_comment": "baby's max speed reduced by 20%",
+   {
+      "_comment": "set Thoqqua max speed to 10%",
       "function": "modifier",
       "attribute": "generic.movementSpeed",
-      "value": -0.45,
+      "value": -0.9,
       "operator": 1
-    }
+    } 
   ]
 }

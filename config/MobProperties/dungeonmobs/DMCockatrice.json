@@ -1,0 +1,14 @@
+{
+  "_name": "dungeonmobs.DMCockatrice",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+    {
+      "_comment": "halve the cocatrices's max speed. if has a good chance to insta-kill player by turning him to stone",
+      "function": "modifier",
+      "attribute": "generic.movementSpeed",
+      "value": -0.5,
+      "operator": 1
+    }
+  ]
+}

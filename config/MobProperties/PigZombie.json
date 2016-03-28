@@ -13,20 +13,20 @@
           "count"    : "0.1",
           "functions": [
               {
-                "_comment"  : "pigmen have a chance to wear pumpkin and drop it (10%)",
+                "_comment"  : "pigmen have a chance to wear pumpkin and drop it (20%)",
                 "function"  : "equip",
                 "id"        : "minecraft:pumpkin",
                 "slot"      : "4",
-                "drop_chance": "0.1"            
+                "drop_chance": "0.2"            
               },
               {
-                "_comment"  : "pigmen have a chance to carry ghostwood sapling and drop it (10%)",
+                "_comment"  : "pigmen have a chance to carry ghostwood sapling and drop it (20%)",
                 "function"  : "equip",
                 "override"  : "true",
                 "id"        : "Natura:florasapling",
                 "damage"    : "4",
                 "slot"      : "0",
-                "drop_chance": "0.1"                            
+                "drop_chance": "0.2"                            
               }
           ]
         }

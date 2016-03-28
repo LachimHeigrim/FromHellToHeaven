@@ -1,14 +1,7 @@
 # Early game - dirty water production
 val dirt = <minecraft:dirt:*>;
 val bottle = <minecraft:glass_bottle>;
-recipes.addShaped(
-  <enviromine:badWaterBottle>,
-  [
-   [dirt,dirt,dirt],
-   [dirt,bottle,dirt],
-   [dirt,dirt,dirt]
-  ]
-);
+recipes.addShapeless( <enviromine:badWaterBottle>,[ bottle, dirt, dirt, dirt  ]);
 
 # Can't make MineTweaker return correctly damaged armor
 #val chestplateMud = <BiomesOPlenty:chestplateMud:*>;

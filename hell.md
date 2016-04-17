@@ -127,6 +127,8 @@ Lava Boat
   - DimensionalControl
 - AnimationAPI
 	- Ars Magica 2
+- bspkrsCore
+  - StartinInventory
 - Mantle
 	- Natura
 - SquidAPI
